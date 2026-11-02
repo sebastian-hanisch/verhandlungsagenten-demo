@@ -277,7 +277,7 @@ def verdict_turnier(data: dict) -> tuple[str, str]:
         f"Conceder liegt in {last_mean} von {len(C.TURNIER_TS) * len(C.TURNIER_SS)} Zellen im Mittel auf dem letzten Rang und in {last_seed} von {len(C.TURNIER_TS) * len(C.TURNIER_SS) * len(C.SEEDS)} Zelle-Seed-Paaren. "
         f"Bei kurzer Frist (T = 6) führt Tit-for-Tat in {tft6} von {len(C.TURNIER_SS)} Gewichtsunterschieden. In der Zelle ({stage_label(20, 0.5)}) liegen drei Strategien vorn: "
         f"Boulware + Modell {de(c.mean['own'][i_top], 3)}, Boulware {de(c.mean['own'][i_b], 3)}, Tit-for-Tat {de(c.mean['own'][i_t], 3)} (zusammen innerhalb von {de(spread, 3)}, Standardabweichung der Seeds {de(max(c.sd['own'][[i_top, i_b, i_t]]), 3)} und kleiner). "
-        f"Boulware + Modell liegt in {f['ahead']} von 9 Zellen vor Boulware, mit einem Vorsprung zwischen {de(f['min'], 3)} und {de(f['max'], 3)}: die Spitze ist eine Gruppe, kein Einzelsieger.")
+        f"Boulware + Modell liegt in {f['ahead']} von 9 Zellen vor Boulware, mit einem Vorsprung zwischen {de(f['min'], 3)} und {de(f['max'], 3)}: in dieser Zelle ist die Spitze eine Gruppe, bei kurzer Frist führt Tit-for-Tat allein.")
 
 
 # --------------------------------------------------------------------------------- E3: Position, Regel, Endspiel
