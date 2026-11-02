@@ -1,7 +1,6 @@
 # Verhandlungsagenten: was trägt gegen unbekannte Gegner? – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-verhandlungsagenten-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-verhandlungsagenten-demo.streamlit.app/)**
 
 Stück der Linie **regeln-verhandeln** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, Bereich Kooperation und Wettbewerb. Es ist das Gegenstück zu [`verhandlung-demo`](https://github.com/sebastian-hanisch/verhandlung-demo), das das Gleichgewicht eines Ablaufs mit **einem** Anteil und bekannten Nutzen rechnet: hier **spielen Programme** gegeneinander, die den Nutzen des Gegners nicht kennen. Und es folgt auf [`kuchen-vergroessern-demo`](https://github.com/sebastian-hanisch/kuchen-vergroessern-demo), das zeigt, dass es bei mehreren Punkten Gewinn gibt; hier wird gemessen, welche Strategie ihn gegen unbekannte Gegner hebt. Vehikel: ein **Verlader** und ein **Spediteur** verhandeln 3 bis 5 Punkte (Preis, Lieferfenster, Zahlungsziel, Haftung, Rückladung) mit je 3 bis 5 Werten, Nutzen auf 0 bis 1 normiert. **Strategien, Nutzen und Fristen sind Modellannahmen, keine Aussagen über echte Verhandler oder Sprachmodelle.**
 
@@ -415,4 +414,4 @@ Gebaut mit Streamlit, Plotly, NumPy und fpdf2.
 
 ---
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Regeln setzen, verhandeln, kontrollieren](https://sebastianhanisch.net/konzepte-verhandeln.html).
